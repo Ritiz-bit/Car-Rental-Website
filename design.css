@@ -1,0 +1,28 @@
+.title{
+color:bisque;
+background-color: brown;
+    border-style:outset;
+    text-wrap: inherit;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:initial;
+    background-repeat: no-repeat;
+    justify-content: center;
+    
+
+}
+.title1{
+  color: beige;
+  background-color: darkgrey;
+    display: flex;
+    justify-content: space-around;
+    border-style: inset;
+    text-underline-offset: none;
+}
+a{
+  text-decoration: none;
+}
+footer{
+  color: antiquewhite;
+  height: 100px;
+  background-color: black;
+}

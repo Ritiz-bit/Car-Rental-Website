@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+    <body>
+    <center><div class="box">
+       <table>
+        <h3>Book a Car</h3>
+        <tr>
+       <td> pickup place:<input type="text" id="pickup" placeholder="Pickup Place"><br></td></tr>
+       <tr> 
+        <td>Drop Place:<input type="text" id="drop" placeholder="Drop Place"><br></td>
+    </tr>
+    <tr>
+        <td>date:<input  id="date" type="date"><br></td></tr>
+       <tr> <td>cartype<input id="cartype" type="cartype"placeholder="cartype"><br></td></tr></table>
+         </form>
+        <button onclick="addBooking()">Book Now</button>
+        <table id="orderTable" border="1">
+            <thead>
+                <tr>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Date</th>
+                    <th>CarType</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div></center>
+    <script src="book.js"></script>
+</body>
+</html>
